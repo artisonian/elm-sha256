@@ -1,5 +1,14 @@
 var _artisonian$elm_sha256$Native_Sha256 = function () {
 
+/**
+*
+*  Secure Hash Algorithm (SHA256)
+*  http://www.webtoolkit.info/javascript-sha256.html
+*  http://anmar.eu.org/projects/jssha2/
+*
+*  Original code by Angel Marin, Paul Johnston.
+*
+**/
 function SHA256(s)
 {
     var chrsz   = 8;
