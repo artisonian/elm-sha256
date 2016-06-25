@@ -1,7 +1,7 @@
 {
     "version": "1.0.0",
-    "summary": "helpful summary of your project, less than 80 characters",
-    "repository": "https://github.com/user/project.git",
+    "summary": "SHA256 ported from http://www.webtoolkit.info/javascript-sha256.html",
+    "repository": "https://github.com/artisonian/elm-sha256.git",
     "license": "BSD3",
     "source-directories": [
         "src"
@@ -10,6 +10,8 @@
         "Sha256"
     ],
     "native-modules": true,
-    "dependencies": {},
-    "elm-version": "0.16.0 <= v < 0.17.0"
+    "dependencies": {
+        "elm-lang/core": "4.0.0 <= v < 5.0.0"
+    },
+    "elm-version": "0.17.0 <= v < 0.18.0"
 }

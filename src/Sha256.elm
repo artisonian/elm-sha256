@@ -1,4 +1,4 @@
-module Sha256 (digest) where
+module Sha256 exposing (digest)
 
 {-| This library is a port of the SHA256 algorithm in JavaScript
 from Meteor (originally written by Angel Marin and Paul Johnston).
